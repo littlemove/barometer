@@ -1,5 +1,5 @@
 module Barometer
-  KEY_FILE = File.expand_path(File.join('~', '.barometer'))
+  KEY_FILE = File.expand_path(File.join(Dir.pwd, '.barometer'))
 
   class KeyFileParser
     def self.find(*paths)
